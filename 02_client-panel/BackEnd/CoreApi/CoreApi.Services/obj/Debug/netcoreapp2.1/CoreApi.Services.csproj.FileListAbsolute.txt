@@ -1,0 +1,8 @@
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\bin\Debug\netcoreapp2.1\CoreApi.Services.deps.json
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\bin\Debug\netcoreapp2.1\CoreApi.Services.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\bin\Debug\netcoreapp2.1\CoreApi.Services.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\obj\Debug\netcoreapp2.1\CoreApi.Services.csproj.CoreCompileInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\obj\Debug\netcoreapp2.1\CoreApi.Services.AssemblyInfoInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\obj\Debug\netcoreapp2.1\CoreApi.Services.AssemblyInfo.cs
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\obj\Debug\netcoreapp2.1\CoreApi.Services.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Services\obj\Debug\netcoreapp2.1\CoreApi.Services.pdb

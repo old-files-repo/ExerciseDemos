@@ -1,0 +1,17 @@
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.Tests.deps.json
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.Tests.runtimeconfig.json
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.Tests.runtimeconfig.dev.json
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.Tests.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.Tests.pdb
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\bin\Debug\netcoreapp2.1\Hospital.pdb
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.csprojAssemblyReference.cache
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.csproj.CoreCompileInputs.cache
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.AssemblyInfoInputs.cache
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.AssemblyInfo.cs
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.csproj.CopyComplete
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.dll
+D:\D\Angular\04_xunit\Hospital\Hospital.Tests\obj\Debug\netcoreapp2.1\Hospital.Tests.pdb

@@ -1,0 +1,9 @@
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\bin\Debug\netcoreapp2.1\Learn.Domains.deps.json
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\bin\Debug\netcoreapp2.1\Learn.Domains.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\bin\Debug\netcoreapp2.1\Learn.Domains.pdb
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.csprojAssemblyReference.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.csproj.CoreCompileInputs.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.AssemblyInfoInputs.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.AssemblyInfo.cs
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.Domains\obj\Debug\netcoreapp2.1\Learn.Domains.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Learn.Data/1.0.0": {
+        "dependencies": {
+          "Learn.Domains": "1.0.0"
+        },
+        "runtime": {
+          "Learn.Data.dll": {}
+        }
+      },
+      "Learn.Domains/1.0.0": {
+        "runtime": {
+          "Learn.Domains.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Learn.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Learn.Domains/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

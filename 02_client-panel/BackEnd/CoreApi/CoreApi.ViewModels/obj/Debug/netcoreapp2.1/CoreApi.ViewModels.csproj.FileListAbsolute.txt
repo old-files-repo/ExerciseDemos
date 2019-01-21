@@ -1,0 +1,12 @@
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\bin\Debug\netcoreapp2.1\CoreApi.ViewModels.deps.json
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\bin\Debug\netcoreapp2.1\CoreApi.ViewModels.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\bin\Debug\netcoreapp2.1\CoreApi.ViewModels.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\bin\Debug\netcoreapp2.1\CoreApi.Models.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\bin\Debug\netcoreapp2.1\CoreApi.Models.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.csprojAssemblyReference.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.csproj.CoreCompileInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.AssemblyInfoInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.AssemblyInfo.cs
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.csproj.CopyComplete
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.ViewModels\obj\Debug\netcoreapp2.1\CoreApi.ViewModels.pdb

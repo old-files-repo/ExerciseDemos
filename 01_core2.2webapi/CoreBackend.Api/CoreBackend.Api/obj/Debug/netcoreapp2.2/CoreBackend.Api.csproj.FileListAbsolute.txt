@@ -1,0 +1,15 @@
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\CoreBackend.Api.deps.json
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\CoreBackend.Api.runtimeconfig.json
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\CoreBackend.Api.runtimeconfig.dev.json
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\CoreBackend.Api.dll
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\CoreBackend.Api.pdb
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.csprojAssemblyReference.cache
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.csproj.CoreCompileInputs.cache
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.RazorAssemblyInfo.cache
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.RazorAssemblyInfo.cs
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.AssemblyInfoInputs.cache
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.AssemblyInfo.cs
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.RazorTargetAssemblyInfo.cache
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.dll
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\obj\Debug\netcoreapp2.2\CoreBackend.Api.pdb
+D:\D\Angular\01_core2.2webapi\CoreBackend.Api\CoreBackend.Api\bin\Debug\netcoreapp2.2\nlog.config

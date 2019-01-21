@@ -1,0 +1,11 @@
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\bin\Debug\netcoreapp2.1\Dynamic.deps.json
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\bin\Debug\netcoreapp2.1\Dynamic.runtimeconfig.json
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\bin\Debug\netcoreapp2.1\Dynamic.runtimeconfig.dev.json
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\bin\Debug\netcoreapp2.1\Dynamic.dll
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\bin\Debug\netcoreapp2.1\Dynamic.pdb
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.csprojAssemblyReference.cache
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.csproj.CoreCompileInputs.cache
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.AssemblyInfoInputs.cache
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.AssemblyInfo.cs
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.dll
+D:\D\Angular\exercisedemo\08_HATEOAS\HATEOAS\Dynamic\obj\Debug\netcoreapp2.1\Dynamic.pdb

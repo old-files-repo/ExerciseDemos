@@ -1,0 +1,11 @@
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\bin\Debug\netcoreapp2.1\CoreApi.Models.deps.json
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\bin\Debug\netcoreapp2.1\CoreApi.Models.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\bin\Debug\netcoreapp2.1\CoreApi.Models.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.csproj.CoreCompileInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.AssemblyInfoInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.AssemblyInfo.cs
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.csproj.CopyComplete
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Models\obj\Debug\netcoreapp2.1\CoreApi.Models.pdb

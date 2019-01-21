@@ -1,0 +1,14 @@
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+D:\D\Angular\03_authorization-server\AuthServer\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb

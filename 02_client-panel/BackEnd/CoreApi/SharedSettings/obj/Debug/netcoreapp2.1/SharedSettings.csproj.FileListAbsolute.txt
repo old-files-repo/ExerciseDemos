@@ -1,0 +1,8 @@
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\bin\Debug\netcoreapp2.1\SharedSettings.deps.json
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\bin\Debug\netcoreapp2.1\SharedSettings.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\bin\Debug\netcoreapp2.1\SharedSettings.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\obj\Debug\netcoreapp2.1\SharedSettings.csproj.CoreCompileInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\obj\Debug\netcoreapp2.1\SharedSettings.AssemblyInfoInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\obj\Debug\netcoreapp2.1\SharedSettings.AssemblyInfo.cs
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\obj\Debug\netcoreapp2.1\SharedSettings.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\SharedSettings\obj\Debug\netcoreapp2.1\SharedSettings.pdb

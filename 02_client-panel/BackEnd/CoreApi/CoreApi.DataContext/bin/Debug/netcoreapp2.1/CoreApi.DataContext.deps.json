@@ -1,0 +1,106 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CoreApi.DataContext/1.0.0": {
+        "dependencies": {
+          "CoreApi.Infrastructure": "1.0.0",
+          "CoreApi.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0.0"
+        },
+        "runtime": {
+          "CoreApi.DataContext.dll": {}
+        }
+      },
+      "CoreApi.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CoreApi.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0.0"
+        },
+        "runtime": {
+          "CoreApi.Infrastructure.dll": {}
+        }
+      },
+      "CoreApi.Models/1.0.0": {
+        "runtime": {
+          "CoreApi.Models.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore/2.2.0.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreApi.DataContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreApi.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Relational.Reference/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

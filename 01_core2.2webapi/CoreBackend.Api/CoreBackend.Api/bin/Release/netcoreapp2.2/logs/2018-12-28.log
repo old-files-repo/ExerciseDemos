@@ -1,0 +1,13 @@
+2018-12-28 19:58:11.4627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 19:58:11.4627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 19:58:11.5680|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 114.2655ms 200 
+2018-12-28 19:58:11.7061|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 252.7709ms 404 text/plain
+2018-12-28 19:58:20.1227|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7296/api/Product/2 application/json 71
+2018-12-28 19:58:20.1691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api)
+2018-12-28 19:58:20.2073|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) with arguments (2) - Validation state: Valid
+2018-12-28 19:58:20.2073|INFO|CoreBackend.Api.Services.CloudMailService|从noreply@alibaba.com给admin@qq.com通过LocalMailService发送了邮件
+2018-12-28 19:58:20.2212|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.4429ms.
+2018-12-28 19:58:20.2212|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-12-28 19:58:20.2212|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) in 59.2354ms
+2018-12-28 19:58:20.2428|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 120.1176ms 204 
+2018-12-28 19:58:20.2573|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCNEUO1BMP", Request id "0HLJCNEUO1BMP:00000002": the application completed without reading the entire request body.

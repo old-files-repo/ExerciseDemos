@@ -1,0 +1,11 @@
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\bin\Debug\netcoreapp2.1\Delegate_Event.deps.json
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\bin\Debug\netcoreapp2.1\Delegate_Event.runtimeconfig.json
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\bin\Debug\netcoreapp2.1\Delegate_Event.runtimeconfig.dev.json
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\bin\Debug\netcoreapp2.1\Delegate_Event.dll
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\bin\Debug\netcoreapp2.1\Delegate_Event.pdb
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.csprojAssemblyReference.cache
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.csproj.CoreCompileInputs.cache
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.AssemblyInfoInputs.cache
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.AssemblyInfo.cs
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.dll
+D:\D\Angular\exercisedemo\07_delegate_event\Delegate_Event\Delegate_Event\obj\Debug\netcoreapp2.1\Delegate_Event.pdb

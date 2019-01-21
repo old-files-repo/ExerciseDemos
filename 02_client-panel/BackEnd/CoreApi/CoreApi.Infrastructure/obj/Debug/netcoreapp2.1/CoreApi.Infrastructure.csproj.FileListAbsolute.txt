@@ -1,0 +1,16 @@
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\CoreApi.Infrastructure.deps.json
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\CoreApi.Infrastructure.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\CoreApi.Infrastructure.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\CoreApi.Models.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\CoreApi.Models.pdb
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.Relational.xml
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.csprojAssemblyReference.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.csproj.CoreCompileInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.AssemblyInfoInputs.cache
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.AssemblyInfo.cs
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.csproj.CopyComplete
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.dll
+D:\D\Angular\02_client-panel\BackEnd\CoreApi\CoreApi.Infrastructure\obj\Debug\netcoreapp2.1\CoreApi.Infrastructure.pdb

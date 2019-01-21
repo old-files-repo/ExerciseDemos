@@ -1,0 +1,16 @@
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.UI.deps.json
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.UI.runtimeconfig.json
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.UI.runtimeconfig.dev.json
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.UI.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.UI.pdb
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.Data.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.Domains.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.Data.pdb
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\bin\Debug\netcoreapp2.2\Learn.Domains.pdb
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.csprojAssemblyReference.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.csproj.CoreCompileInputs.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.AssemblyInfoInputs.cache
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.AssemblyInfo.cs
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.csproj.CopyComplete
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.dll
+D:\D\Angular\exercisedemo\06_efcore\LearnEf\Learn.UI\obj\Debug\netcoreapp2.2\Learn.UI.pdb

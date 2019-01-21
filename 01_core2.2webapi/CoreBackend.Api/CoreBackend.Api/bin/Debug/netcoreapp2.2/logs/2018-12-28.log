@@ -1,0 +1,390 @@
+2018-12-28 19:41:44.2812|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 19:41:44.2812|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 19:41:44.3828|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 113.7366ms 200 
+2018-12-28 19:41:44.5304|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 263.6111ms 404 text/plain
+2018-12-28 19:45:14.1306|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 19:45:14.1306|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 19:45:14.2221|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.0102ms 200 
+2018-12-28 19:45:14.3628|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 241.0694ms 404 text/plain
+2018-12-28 19:46:08.7688|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7296/api/Product/2 application/json 71
+2018-12-28 19:46:08.8309|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api)
+2018-12-28 19:46:08.8574|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) with arguments (2) - Validation state: Valid
+2018-12-28 19:46:08.8664|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 3.9846ms.
+2018-12-28 19:46:08.8664|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-12-28 19:46:08.8837|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) in 45.5974ms
+2018-12-28 19:46:08.8837|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 120.8304ms 204 
+2018-12-28 19:46:08.9018|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCN7N2TFDJ", Request id "0HLJCN7N2TFDJ:00000002": the application completed without reading the entire request body.
+2018-12-28 19:48:49.5924|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 19:48:49.5925|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 19:48:49.8134|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 227.703ms 200 
+2018-12-28 19:48:49.9498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 368.2685ms 404 text/plain
+2018-12-28 19:48:52.5238|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7296/api/Product/2 application/json 71
+2018-12-28 19:48:52.5740|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api)
+2018-12-28 19:48:52.6029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) with arguments (2) - Validation state: Valid
+2018-12-28 19:48:52.6146|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 4.2693ms.
+2018-12-28 19:48:52.6146|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-12-28 19:48:52.6301|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) in 49.6145ms
+2018-12-28 19:48:52.6301|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.7062ms 204 
+2018-12-28 19:48:52.6497|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCN9N9KER5", Request id "0HLJCN9N9KER5:00000002": the application completed without reading the entire request body.
+2018-12-28 20:05:53.9607|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:05:53.9607|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:05:54.0577|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.1651ms 200 
+2018-12-28 20:05:54.1816|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 229.1599ms 404 text/plain
+2018-12-28 20:05:56.7291|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7296/api/Product/2 application/json 71
+2018-12-28 20:05:56.7784|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api)
+2018-12-28 20:05:56.8135|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) with arguments (2) - Validation state: Valid
+2018-12-28 20:05:56.8230|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 4.6263ms.
+2018-12-28 20:05:56.8309|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-12-28 20:05:56.8309|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) in 51.4469ms
+2018-12-28 20:05:56.8309|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 113.2262ms 204 
+2018-12-28 20:05:56.8594|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCNJ8ION2V", Request id "0HLJCNJ8ION2V:00000002": the application completed without reading the entire request body.
+2018-12-28 20:23:23.8810|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:23:23.8810|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:23:23.9844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.6767ms 200 
+2018-12-28 20:23:24.1278|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 256.5824ms 404 text/plain
+2018-12-28 20:23:53.0102|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/test/12  
+2018-12-28 20:23:53.0203|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.0178ms 404 text/plain
+2018-12-28 20:24:03.6966|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/test  
+2018-12-28 20:24:03.6966|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7949ms 404 text/plain
+2018-12-28 20:24:15.9064|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/test  
+2018-12-28 20:24:15.9450|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Test"}. Executing action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api)
+2018-12-28 20:24:16.4421|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 20:24:26.7110|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2018-12-28 20:24:26.7362|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2018-12-28 20:24:26.7841|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-12-28 20:24:26.7841|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) - Validation state: Valid
+2018-12-28 20:24:26.8006|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.3315ms.
+2018-12-28 20:24:26.8006|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-12-28 20:24:26.8164|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) in 10863.8379ms
+2018-12-28 20:24:26.8164|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10917.6221ms 200 
+2018-12-28 20:33:01.0011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:33:01.0011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:33:01.0983|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 103.6769ms 200 
+2018-12-28 20:33:01.2286|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 236.4439ms 404 text/plain
+2018-12-28 20:33:12.3443|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/test  
+2018-12-28 20:33:12.3849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Test"}. Executing action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api)
+2018-12-28 20:33:12.7292|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 20:33:22.8977|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2018-12-28 20:33:22.9218|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2018-12-28 20:33:22.9697|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8,2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-12-28 20:33:22.9819|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) - Validation state: Valid
+2018-12-28 20:33:22.9876|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.3348ms.
+2018-12-28 20:33:22.9876|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-12-28 20:33:23.0046|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) in 10611.5405ms
+2018-12-28 20:33:23.0046|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10666.987ms 200 
+2018-12-28 20:37:14.3057|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:37:14.3057|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:37:14.4103|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.8418ms 200 
+2018-12-28 20:37:14.5415|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 245.3757ms 404 text/plain
+2018-12-28 20:37:42.7382|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7296/api/Product/2 application/json 71
+2018-12-28 20:37:42.7909|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api)
+2018-12-28 20:37:42.8247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) with arguments (2) - Validation state: Valid
+2018-12-28 20:37:42.8374|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 5.645ms.
+2018-12-28 20:37:42.8374|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-12-28 20:37:42.8504|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.Delete (CoreBackend.Api) in 49.0479ms
+2018-12-28 20:37:42.8504|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 117.6739ms 204 
+2018-12-28 20:37:42.8685|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCO4OV4NPD", Request id "0HLJCO4OV4NPD:00000002": the application completed without reading the entire request body.
+2018-12-28 20:38:15.1976|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/test  
+2018-12-28 20:38:15.2201|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Test"}. Executing action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api)
+2018-12-28 20:38:15.5682|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 20:38:25.7524|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2018-12-28 20:38:25.7818|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2018-12-28 20:38:25.8306|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2018-12-28 20:38:25.8306|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 20:38:25.8306|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 20:38:25.8513|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20181228123447_initial'.
+2018-12-28 20:38:25.8661|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8,2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-12-28 20:38:25.8661|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20181228123447_initial', N'2.2.0-rtm-35687');
+2018-12-28 20:38:25.8661|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) - Validation state: Valid
+2018-12-28 20:38:25.8798|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.3439ms.
+2018-12-28 20:38:25.8798|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-12-28 20:38:25.8798|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.TestController.Get (CoreBackend.Api) in 10663.0775ms
+2018-12-28 20:38:25.8798|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10698.0335ms 200 
+2018-12-28 20:44:06.9480|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:44:07.0784|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 137.8338ms 404 text/plain
+2018-12-28 20:46:39.0411|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2018-12-28 20:46:39.4198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:46:39.4198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:46:39.4596|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJCOA1CFHO7", Request id "0HLJCOA1CFHO7:00000001": An unhandled exception was thrown by the application.
+2018-12-28 20:46:39.4596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.1518ms 500 
+2018-12-28 20:46:39.4596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.4282ms 500 text/html; charset=utf-8
+2018-12-28 20:50:02.9322|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2018-12-28 20:50:03.1448|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:50:03.1589|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.5023ms 500 text/html; charset=utf-8
+2018-12-28 20:54:34.0459|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2018-12-28 20:54:34.1773|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-12-28 20:54:34.1773|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-12-28 20:54:34.1930|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-12-28 20:54:34.4863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 20:54:34.4863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 20:54:34.5320|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.6263ms 200 
+2018-12-28 20:54:34.6418|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 158.0067ms 404 text/plain
+2018-12-28 21:25:57.3796|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2018-12-28 21:25:57.8405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:7296/  0
+2018-12-28 21:25:57.8405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/  
+2018-12-28 21:25:57.8846|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.7499ms 200 
+2018-12-28 21:25:58.0141|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 176.7488ms 404 text/plain
+2018-12-28 21:26:25.7651|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/2  
+2018-12-28 21:26:25.8182|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:26:25.8448|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:26:25.8629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:26:25.8629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:26:25.8629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:26:25.8774|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:26:25.9098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (2, False) - Validation state: Valid
+2018-12-28 21:26:25.9612|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:26:26.0251|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 109.9274ms.
+2018-12-28 21:26:26.0361|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CoreBackend.Api.Dtos.ProductWithoutMaterialDto'.
+2018-12-28 21:26:26.0943|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 269.5535ms
+2018-12-28 21:26:26.1010|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 335.2956ms 200 application/json; charset=utf-8
+2018-12-28 21:26:52.3065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/id=2  
+2018-12-28 21:26:52.3065|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:26:52.3236|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:26:52.3236|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:26:52.3308|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:26:52.3308|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:26:52.3308|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:26:52.3308|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (0, False) - Validation state: Invalid
+2018-12-28 21:26:54.5854|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:27:03.2750|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 10925.7937ms.
+2018-12-28 21:27:03.2750|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-28 21:27:03.2836|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 10966.1251ms
+2018-12-28 21:27:03.2836|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10980.1427ms 404 text/plain
+2018-12-28 21:27:07.9016|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/id=2  
+2018-12-28 21:27:07.9016|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:27:07.9083|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:27:07.9083|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:07.9083|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:07.9083|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:27:07.9083|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:27:07.9288|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (0, False) - Validation state: Invalid
+2018-12-28 21:27:13.6688|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:27:13.6688|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 5739.724ms.
+2018-12-28 21:27:13.6750|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-28 21:27:13.6750|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 5770.1511ms
+2018-12-28 21:27:13.6750|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5779.172ms 404 text/plain
+2018-12-28 21:27:42.6491|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/id=2&includeMaterial=true  
+2018-12-28 21:27:42.6491|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:27:42.6678|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:27:42.6678|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:42.6746|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:42.6746|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:27:42.6746|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:27:42.6746|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (0, False) - Validation state: Invalid
+2018-12-28 21:27:52.9249|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:27:52.9249|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 10238.1147ms.
+2018-12-28 21:27:52.9249|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-28 21:27:52.9249|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 10274.6912ms
+2018-12-28 21:27:52.9249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10289.3611ms 404 text/plain
+2018-12-28 21:27:59.1787|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/id=3234&includeMaterial=true  
+2018-12-28 21:27:59.1787|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:27:59.1787|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:27:59.1787|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:59.1927|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:27:59.1927|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:27:59.1927|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:27:59.1927|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (0, False) - Validation state: Invalid
+2018-12-28 21:28:02.0972|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:28:02.0972|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 2893.9358ms.
+2018-12-28 21:28:02.0972|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-28 21:28:02.0972|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 2921.3264ms
+2018-12-28 21:28:02.0972|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2930.5574ms 404 text/plain
+2018-12-28 21:28:27.5563|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/2&includeMaterial=true  
+2018-12-28 21:28:27.5563|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:28:27.5711|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:28:27.5711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:28:27.5711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:28:27.5827|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:28:27.5827|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:28:27.5827|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (0, False) - Validation state: Invalid
+2018-12-28 21:28:30.1566|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2018-12-28 21:28:30.1600|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 2567.1227ms.
+2018-12-28 21:28:30.1600|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-28 21:28:30.1600|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 2599.2055ms
+2018-12-28 21:28:30.1600|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2612.2562ms 404 text/plain
+2018-12-28 21:28:35.6296|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/2?includeMaterial=true  
+2018-12-28 21:28:35.6296|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:28:35.6296|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:28:35.6296|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:28:35.6429|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:28:35.6429|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:28:35.6429|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:28:35.6429|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (2, True) - Validation state: Valid
+2018-12-28 21:28:37.9419|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2018-12-28 21:28:37.9419|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2018-12-28 21:28:37.9612|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2303.4407ms.
+2018-12-28 21:28:37.9612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CoreBackend.Api.Dtos.ProductDto'.
+2018-12-28 21:28:37.9724|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 2336.9614ms
+2018-12-28 21:28:37.9724|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2345.7156ms 200 application/json; charset=utf-8
+2018-12-28 21:29:02.5888|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7296/api/Product/2?includeMaterial=true  
+2018-12-28 21:29:02.5961|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api)
+2018-12-28 21:29:02.5961|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.0-rtm-35687 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-28 21:29:02.5961|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:29:02.5961|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2018-12-28 21:29:02.6132|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2018-12-28 21:29:02.6132|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2018-12-28 21:29:02.6132|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) with arguments (2, True) - Validation state: Valid
+2018-12-28 21:29:06.3867|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2018-12-28 21:29:06.3867|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2018-12-28 21:29:11.2561|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8632.9295ms.
+2018-12-28 21:29:11.2561|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CoreBackend.Api.Dtos.ProductDto'.
+2018-12-28 21:29:11.2561|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Api.Controllers.ProductController.GetProducts (CoreBackend.Api) in 8663.7004ms
+2018-12-28 21:29:11.2561|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8677.1609ms 200 application/json; charset=utf-8

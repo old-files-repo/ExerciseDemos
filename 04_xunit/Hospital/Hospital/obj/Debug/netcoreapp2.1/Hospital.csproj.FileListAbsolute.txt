@@ -1,0 +1,14 @@
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\Hospital.deps.json
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\Hospital.runtimeconfig.json
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\Hospital.runtimeconfig.dev.json
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\Hospital.dll
+D:\D\Angular\04_xunit\Hospital\Hospital\bin\Debug\netcoreapp2.1\Hospital.pdb
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.csproj.CoreCompileInputs.cache
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.AssemblyInfoInputs.cache
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.AssemblyInfo.cs
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.dll
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.pdb
+D:\D\Angular\04_xunit\Hospital\Hospital\obj\Debug\netcoreapp2.1\Hospital.csprojAssemblyReference.cache
