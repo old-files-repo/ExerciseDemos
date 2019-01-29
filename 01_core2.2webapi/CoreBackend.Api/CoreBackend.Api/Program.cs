@@ -12,8 +12,15 @@ namespace CoreBackend.Api
 {
     public class Program
     {
+        private static IConfigurationRoot Configuration { get; set; }
+
         public static void Main(string[] args)
         {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            Configuration = builder.Build();
+
             CreateWebHostBuilder(args).Build().Run();
         }
 

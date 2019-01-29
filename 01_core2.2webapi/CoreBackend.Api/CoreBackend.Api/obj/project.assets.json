@@ -12151,11 +12151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\D\\Angular\\exercisedemo\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\CoreBackend.Api.csproj",
+      "projectUniqueName": "D:\\github\\ExerciseDemos\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\CoreBackend.Api.csproj",
       "projectName": "CoreBackend.Api",
-      "projectPath": "D:\\D\\Angular\\exercisedemo\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\CoreBackend.Api.csproj",
+      "projectPath": "D:\\github\\ExerciseDemos\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\CoreBackend.Api.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\D\\Angular\\exercisedemo\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\obj\\",
+      "outputPath": "D:\\github\\ExerciseDemos\\01_core2.2webapi\\CoreBackend.Api\\CoreBackend.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

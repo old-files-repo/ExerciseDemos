@@ -16,7 +16,7 @@ namespace CoreBackend.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok();
+            return Ok("123");
         }
     }
 }

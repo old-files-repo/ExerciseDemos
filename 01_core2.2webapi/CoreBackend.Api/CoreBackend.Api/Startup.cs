@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 using CoreBackend.Api.Data;
 using CoreBackend.Api.Dtos;
 using CoreBackend.Api.Entities;
+using CoreBackend.Api.Filters;
+using CoreBackend.Api.Middlwares;
 using CoreBackend.Api.Repositories;
 using CoreBackend.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,7 +38,13 @@ namespace CoreBackend.Api
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddMvc() // 注册MVC到Container
+            services.AddMvc(options =>
+                {
+                    options.Filters.Add<DefaultUserNameFilterAttribute>();
+
+                    options.RespectBrowserAcceptHeader = true;
+                    options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+                }) // 注册MVC到Container
                 .AddJsonOptions(options =>
                 {
                     //去掉camel case
@@ -43,6 +52,7 @@ namespace CoreBackend.Api
                     {
                         resolver.NamingStrategy = null;
                     }
+
                 })
                 .AddMvcOptions(options =>//添加xml格式
                 {
@@ -54,6 +64,7 @@ namespace CoreBackend.Api
 #else
             services.AddTransient<IMailService, CloudMailService>();
 #endif
+            services.AddRouting();
 
             //开发环境
             var connectionString = Configuration["connectionStrings:productionInfoDbConnectionString"];
@@ -84,6 +95,44 @@ namespace CoreBackend.Api
             {
                 app.UseExceptionHandler();
             }
+
+            app.UseRouter(builder =>
+                {
+                    builder.MapRoute(string.Empty, context => context.Response.WriteAsync("Returned"));
+                    builder.MapGet("user/{name}", (req, res, routeData) => res.WriteAsync($"hi {routeData.Values["name"]}"));
+                    builder.MapPost("user/{name}", (req, res, routeData) => res.WriteAsync($"hi,post name is {routeData.Values["name"]}"));
+                });
+
+            app.Map("/return",
+                (skipApp) => skipApp.Run(async (context) => await context.Response.WriteAsync("Returned")));
+
+            app.Use(async (context, next) =>
+            {
+                if (context.Request.Path == "/end")
+                {
+                    await context.Response.WriteAsync("The End");
+                }
+                else
+                {
+                    await next();
+                }
+            });
+
+            //app.Use(async (context, next) =>
+            //{
+            //    var value = context.Request.Query["value"].ToString();
+            //    if (int.TryParse(value, out int number))
+            //    {
+            //        await context.Response.WriteAsync($"the number is {number}");
+            //    }
+            //    else
+            //    {
+            //        context.Items["value"] = value;
+            //        await next();
+            //    }
+            //});
+
+            app.UseMiddleware<NumberMiddleware>();
 
             myContext.EnsureSeedDataForContext();
 
