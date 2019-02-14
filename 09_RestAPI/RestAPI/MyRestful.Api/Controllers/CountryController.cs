@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MuRestful.Core.Domains;
 using MyRestful.Api.ViewModels;
@@ -10,6 +11,7 @@ using MyRestful.Infrastructure.UnitOfWork;
 
 namespace MyRestful.Api.Controllers
 {
+    [Authorize]
     [Route("api/countries")]
     public class CountryController : Controller
     {
@@ -83,10 +85,10 @@ namespace MyRestful.Api.Controllers
             }
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get(QueryPage queryPage)
-        {
-            return _countryRepository.GetByPage(queryPage);
-        }
+        //[HttpGet]
+        //public async Task<IActionResult> Get(QueryPage queryPage)
+        //{
+        //    return _countryRepository.GetByPage(queryPage);
+        //}
     }
 }
