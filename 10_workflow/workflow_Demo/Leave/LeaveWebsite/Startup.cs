@@ -1,17 +1,21 @@
 using AutoMapper;
+using LeaveWebsite.Models;
+using LeaveWebsite.Workflows;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
+using WorkflowCore.Interface;
 
 namespace LeaveWebsite
 {
     public class Startup
     {
+        private IWorkflowHost _host;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -23,6 +27,8 @@ namespace LeaveWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper();
+
+            services.AddWorkflow();
 
             services.AddMvcCore()
                 .AddJsonFormatters();
@@ -44,6 +50,11 @@ namespace LeaveWebsite
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // Start the workflow host
+            _host = app.ApplicationServices.GetService<IWorkflowHost>();
+            _host.RegisterWorkflow<LeaveWorkflow, Leave>();
+            _host.Start();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

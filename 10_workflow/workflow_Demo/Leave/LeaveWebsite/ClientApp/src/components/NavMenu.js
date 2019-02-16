@@ -37,7 +37,7 @@ export class NavMenu extends Component {
                   <NavLink tag={Link} className="text-dark" to="/apply">申请</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/fetch-data">审批</NavLink>
+                  <NavLink tag={Link} className="text-dark" to="/exam">审批</NavLink>
                 </NavItem>
               </ul>
             </Collapse>
