@@ -19,8 +19,7 @@ export class Exam extends Component {
     });
   }
 
-  handleExam(id) {
-    debugger
+  handleExam(id,level) {
     let headers = new Headers();
     let options = {};
     headers.append( "Content-Type", "application/json; charset=utf-8");
@@ -28,11 +27,25 @@ export class Exam extends Component {
     options.method = "PUT";
     options.credentials = "include";
     options.mode = "cors";
-    fetch('/api/SampleData/exam/'+id,options)
+    fetch('/api/SampleData/exam/'+id+'/'+level,options)
     .then(data => {
       this.fetchAll();
     });
   }
+
+  // handleExam(id) {
+  //   let headers = new Headers();
+  //   let options = {};
+  //   headers.append( "Content-Type", "application/json; charset=utf-8");
+  //   options.headers = headers;
+  //   options.method = "PUT";
+  //   options.credentials = "include";
+  //   options.mode = "cors";
+  //   fetch('/api/SampleData/exam/'+id,options)
+  //   .then(data => {
+  //     this.fetchAll();
+  //   });
+  // }
 
   handleReject =id=>  {
     let headers = new Headers();
@@ -71,7 +84,9 @@ export class Exam extends Component {
               <td>{forecast.applyContent}</td>
               <td>{forecast.examState}</td>
               <td>
-                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id)}>审批</a><br/>
+                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,1)}>一级审批</a><br/>
+                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,2)}>二级审批</a><br/>
+                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,3)}>三级审批</a><br/>
                 <a href="javascript:void(0)" onClick={()=>this.handleReject(forecast.id)}>驳回</a>
               </td>
             </tr>

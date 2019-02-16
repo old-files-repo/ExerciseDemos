@@ -12,6 +12,6 @@ namespace LeaveWebsite.Models
 
         public ExamState ExamState { get; set; } = ExamState.Î´ÉóÅú;
 
-        //public bool Completed { get; set; } = false;
+        public ExamState Completed { get; set; } = ExamState.Î´ÉóÅú;
     }
 }

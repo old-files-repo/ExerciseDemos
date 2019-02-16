@@ -33,29 +33,38 @@ namespace LeaveWebsite.Controllers
             };
             Leaves.Add(leaveModel);
 
-            _workflowHost.StartWorkflow(nameof(LeaveWorkflow), leaveModel);
+            //_workflowHost.StartWorkflow(nameof(LeaveWorkflow), leaveModel);
 
             return Ok();
         }
 
-        [HttpPut("exam/{id}")]
-        public IActionResult Exam(Guid id)
+        //[HttpPut("exam/{id}")]
+        [HttpPut("exam/{id}/{level}")]
+        public IActionResult Exam(Guid id, ExamState level)
         {
             Leaves.ForEach(x =>
             {
-                if (x.Id == id && (x.ExamState == ExamState.已驳回 || x.ExamState == ExamState.未审批))
+                if (x.Id == id)
                 {
-                    _workflowHost.PublishEvent("ExamedLevelOne", id.ToString(), null);
-                }
-                else if (x.Id == id && x.ExamState == ExamState.一级审批通过)
-                {
-                    _workflowHost.PublishEvent("ExamedLevelTwo", id.ToString(), null);
-                }
-                else if (x.Id == id && x.ExamState == ExamState.二级审批通过)
-                {
-                    _workflowHost.PublishEvent("ExamedLevelThree", id.ToString(), null);
+                    x.ExamState = level;
+                    _workflowHost.StartWorkflow(nameof(LeaveWorkflowIf), x);
                 }
             });
+            //Leaves.ForEach(x =>
+            //{
+            //    if (x.Id == id && (x.ExamState == ExamState.已驳回 || x.ExamState == ExamState.未审批))
+            //    {
+            //        _workflowHost.PublishEvent("ExamedLevelOne", id.ToString(), null);
+            //    }
+            //    else if (x.Id == id && x.ExamState == ExamState.一级审批通过)
+            //    {
+            //        _workflowHost.PublishEvent("ExamedLevelTwo", id.ToString(), null);
+            //    }
+            //    else if (x.Id == id && x.ExamState == ExamState.二级审批通过)
+            //    {
+            //        _workflowHost.PublishEvent("ExamedLevelThree", id.ToString(), null);
+            //    }
+            //});
 
             return Ok();
         }
@@ -67,7 +76,9 @@ namespace LeaveWebsite.Controllers
             {
                 if (x.Id == id && x.ExamState != ExamState.三级审批通过)
                 {
-                    _workflowHost.PublishEvent("Rejected", id.ToString(), null);
+                    x.ExamState = ExamState.已驳回;
+                    _workflowHost.StartWorkflow(nameof(LeaveWorkflowIf), x);
+                    //_workflowHost.PublishEvent("Rejected", id.ToString(), null);
                 }
             });
 
@@ -98,7 +109,7 @@ namespace LeaveWebsite.Controllers
             CreateMap<Leave, LeaveViewModel>()
                 .ForMember(d => d.Id, s => s.MapFrom(x => x.Id.ToString()))
                 .ForMember(d => d.CreateDate, s => s.MapFrom(x => x.CreateDate.ToString("yyyy-MM-dd HH:mm:ss")))
-                .ForMember(d => d.ExamState, s => s.MapFrom(x => Enum.GetName(typeof(ExamState), x.ExamState)));
+                .ForMember(d => d.ExamState, s => s.MapFrom(x => Enum.GetName(typeof(ExamState), x.Completed)));
         }
     }
 }

@@ -53,6 +53,7 @@ namespace LeaveWebsite
             // Start the workflow host
             _host = app.ApplicationServices.GetService<IWorkflowHost>();
             _host.RegisterWorkflow<LeaveWorkflow, Leave>();
+            _host.RegisterWorkflow<LeaveWorkflowIf, Leave>();
             _host.Start();
 
             if (env.IsDevelopment())
