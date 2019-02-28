@@ -1,0 +1,79 @@
+﻿{
+  "Id": "AskForLeaveWorkflow",
+  "Version": 1,
+  "DataType": "WorkflowCoreTestWebAPI.Models.WorkflowData, WorkflowCoreTestWebAPI",
+  "Steps": [
+    {
+      "Id": "Init_Step",
+      "StepType": "WorkflowCoreTestWebAPI.Steps.InitWorkFlow, WorkflowCoreTestWebAPI",
+      "NextStepId": "WaitFor_Step"
+    },
+    {
+      "Id": "WaitFor_Step",
+      "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+      "NextStepId": "Update_Step",
+      "Inputs": {
+        "EventName": "\"DepartmentAuditedEvent\"",
+        "EventKey": "context.Workflow.Id"
+      },
+      "Outputs": {
+        "WorkflowDataJson": "step.EventData"
+      }
+    },
+    {
+      "Id": "Update_Step",
+      "StepType": "WorkflowCoreTestWebAPI.Steps.UpdateWorkflow, WorkflowCoreTestWebAPI",
+      "NextStepId": "If_Step",
+      "Inputs": {
+        "WorkflowDataJson": "data.WorkflowDataJson"
+      },
+      "Outputs": {
+        "State": "step.State",
+        "DeniedReason": "step.DeniedReason",
+        "StepName": "step.StepName",
+        "CurrentStepCount": "step.CurrentStepCount"
+      }
+    },
+    {
+      "Id": "If_Step",
+      "StepType": "WorkflowCore.Primitives.If, WorkflowCore",
+      "Inputs": {
+        "Condition": "data.State == \"通过\""
+      },
+      "Do": [
+        [
+          {
+            "Id": "If_Init_Step",
+            "StepType": "WorkflowCoreTestWebAPI.Steps.InitWorkFlow, WorkflowCoreTestWebAPI",
+            "NextStepId": "If_WaitFor_Step"
+          },
+          {
+            "Id": "If_WaitFor_Step",
+            "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+            "NextStepId": "If_Update_Step",
+            "Inputs": {
+              "EventName": "\"CompanyAuditedEvent\"",
+              "EventKey": "context.Workflow.Id"
+            },
+            "Outputs": {
+              "WorkflowDataJson": "step.EventData"
+            }
+          },
+          {
+            "Id": "If_Update_Step",
+            "StepType": "WorkflowCoreTestWebAPI.Steps.UpdateWorkflow, WorkflowCoreTestWebAPI",
+            "Inputs": {
+              "WorkflowDataJson": "data.WorkflowDataJson"
+            },
+            "Outputs": {
+              "State": "step.State",
+              "DeniedReason": "step.DeniedReason",
+              "StepName": "step.StepName",
+              "CurrentStepCount": "step.CurrentStepCount"
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}

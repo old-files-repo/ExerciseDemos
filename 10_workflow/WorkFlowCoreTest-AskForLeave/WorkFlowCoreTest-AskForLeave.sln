@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlowCoreTest-AskForLeave", "WorkFlowCoreTest-AskForLeave\WorkFlowCoreTest-AskForLeave.csproj", "{97C6368D-031E-4FBE-84D8-4B6BB47FA632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowCoreTestWebAPI", "WorkflowCoreTestWebAPI\WorkflowCoreTestWebAPI.csproj", "{1E6D3597-718B-448E-BDE7-A817E279FCDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97C6368D-031E-4FBE-84D8-4B6BB47FA632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C6368D-031E-4FBE-84D8-4B6BB47FA632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C6368D-031E-4FBE-84D8-4B6BB47FA632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C6368D-031E-4FBE-84D8-4B6BB47FA632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6D3597-718B-448E-BDE7-A817E279FCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6D3597-718B-448E-BDE7-A817E279FCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6D3597-718B-448E-BDE7-A817E279FCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6D3597-718B-448E-BDE7-A817E279FCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6FAF551-BB99-46FF-9854-996628D44E68}
+	EndGlobalSection
+EndGlobal
