@@ -1,5 +1,4 @@
 using AutoMapper;
-using LeaveWebsite.Models;
 using LeaveWebsite.Workflows;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -50,11 +49,15 @@ namespace LeaveWebsite
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // register with service json
+            var loader = app.ApplicationServices.GetService<IDefinitionLoader>();
+            var wfd = loader.LoadDefinition(LeaveWorkflowJsons.GetLeaveWorkflowJson());
+
             // Start the workflow host
-            _host = app.ApplicationServices.GetService<IWorkflowHost>();
-            _host.RegisterWorkflow<LeaveWorkflow, Leave>();
-            _host.RegisterWorkflow<LeaveWorkflowIf, Leave>();
-            _host.Start();
+            //_host = app.ApplicationServices.GetService<IWorkflowHost>();
+            //_host.RegisterWorkflow<LeaveWorkflow, Leave>();
+            //_host.RegisterWorkflow<LeaveWorkflowIf, Leave>();
+            //_host.Start();
 
             if (env.IsDevelopment())
             {

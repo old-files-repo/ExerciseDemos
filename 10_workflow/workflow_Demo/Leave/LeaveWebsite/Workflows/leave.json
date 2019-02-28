@@ -1,0 +1,93 @@
+{
+  "Id": "LeaveWorkflow",
+  "Version": 1,
+  "DataType": "LeaveWebsite.Workflows.DynamicData, LeaveWebsite",
+  "Steps": [
+    {
+      "Id": "MyParallelStep",
+      "StepType": "WorkflowCore.Primitives.Sequence, WorkflowCore",
+      "NextStepId": null,
+      "Inputs": null,
+      "Outputs": null,
+      "CancelCondition": null,
+      "Do": [
+        [
+          {
+            "Id": "Branch1.Step2",
+            "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+            "NextStepId": null,
+            "Inputs": {
+              "EventName": "\"ExamedLevelOne\"",
+              "EventKey": "data.Workflow.Id",
+              "EffectiveDate": "2019-02-22T11:34:54.5539628+08:00"
+            },
+            "Outputs": {
+              "Data": "data.ExamState",
+              "Step": "一级审批通过",
+              "Context": null
+            },
+            "CancelCondition": null,
+            "Do": null
+          }
+        ],
+        [
+          {
+            "Id": "Branch2.Step2",
+            "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+            "NextStepId": null,
+            "Inputs": {
+              "EventName": "\"ExamedLevelTwo\"",
+              "EventKey": "data.Workflow.Id",
+              "EffectiveDate": "2019-02-22T11:34:54.5549503+08:00"
+            },
+            "Outputs": {
+              "Data": "data.ExamState",
+              "Step": "二级审批通过",
+              "Context": null
+            },
+            "CancelCondition": null,
+            "Do": null
+          }
+        ],
+        [
+          {
+            "Id": "Branch3.Step2",
+            "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+            "NextStepId": null,
+            "Inputs": {
+              "EventName": "\"ExamedLevelThree\"",
+              "EventKey": "data.Workflow.Id",
+              "EffectiveDate": "2019-02-22T11:34:54.5549521+08:00"
+            },
+            "Outputs": {
+              "Data": "data.ExamState",
+              "Step": "三级审批通过",
+              "Context": null
+            },
+            "CancelCondition": null,
+            "Do": null
+          }
+        ],
+        [
+          {
+            "Id": "Branch4.Step2",
+            "StepType": "WorkflowCore.Primitives.WaitFor, WorkflowCore",
+            "NextStepId": null,
+            "Inputs": {
+              "EventName": "\"Rejected\"",
+              "EventKey": "data.Workflow.Id",
+              "EffectiveDate": "2019-02-22T11:34:54.5549524+08:00"
+            },
+            "Outputs": {
+              "Data": "data.ExamState",
+              "Step": "已驳回",
+              "Context": null
+            },
+            "CancelCondition": null,
+            "Do": null
+          }
+        ]
+      ]
+    }
+  ]
+}

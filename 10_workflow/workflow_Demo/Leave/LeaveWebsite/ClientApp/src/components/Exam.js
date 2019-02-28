@@ -84,10 +84,10 @@ export class Exam extends Component {
               <td>{forecast.applyContent}</td>
               <td>{forecast.examState}</td>
               <td>
-                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,1)}>一级审批</a><br/>
-                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,2)}>二级审批</a><br/>
-                <a href="javascript:void(0)" onClick={()=>this.handleExam(forecast.id,3)}>三级审批</a><br/>
-                <a href="javascript:void(0)" onClick={()=>this.handleReject(forecast.id)}>驳回</a>
+                            <a href="javascript:void(0)" onClick={() => this.handleExam(forecast.workflowId,1)}>一级审批</a><br/>
+                            <a href="javascript:void(0)" onClick={() => this.handleExam(forecast.workflowId,2)}>二级审批</a><br/>
+                            <a href="javascript:void(0)" onClick={() => this.handleExam(forecast.workflowId,3)}>三级审批</a><br/>
+                            <a href="javascript:void(0)" onClick={() => this.handleReject(forecast.workflowId)}>驳回</a>
               </td>
             </tr>
           )}

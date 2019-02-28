@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using LeaveWebsite.Models;
-using LeaveWebsite.Workflows;
 using Microsoft.AspNetCore.Mvc;
 using WorkflowCore.Interface;
 
@@ -14,7 +13,6 @@ namespace LeaveWebsite.Controllers
     {
         private readonly IWorkflowHost _workflowHost;
         private readonly IMapper _mapper;
-        private static readonly List<Leave> Leaves = new List<Leave>();
 
         public SampleDataController(IMapper mapper,
             IWorkflowHost workflowHost)
@@ -31,40 +29,30 @@ namespace LeaveWebsite.Controllers
                 ApplyUser = leave.ApplyUser,
                 ApplyContent = leave.ApplyContent
             };
-            Leaves.Add(leaveModel);
 
-            //_workflowHost.StartWorkflow(nameof(LeaveWorkflow), leaveModel);
+            var workflowId = _workflowHost.StartWorkflow("LeaveWorkflow", leaveModel).Result;
+
+            leaveModel.WorkflowId = workflowId;
+            LeaveStore.Add(leaveModel);
 
             return Ok();
         }
 
-        //[HttpPut("exam/{id}")]
         [HttpPut("exam/{id}/{level}")]
-        public IActionResult Exam(Guid id, ExamState level)
+        public IActionResult Exam(string id, ExamState level)
         {
-            Leaves.ForEach(x =>
+            if (level == ExamState.一级审批通过)
             {
-                if (x.Id == id)
-                {
-                    x.ExamState = level;
-                    _workflowHost.StartWorkflow(nameof(LeaveWorkflowIf), x);
-                }
-            });
-            //Leaves.ForEach(x =>
-            //{
-            //    if (x.Id == id && (x.ExamState == ExamState.已驳回 || x.ExamState == ExamState.未审批))
-            //    {
-            //        _workflowHost.PublishEvent("ExamedLevelOne", id.ToString(), null);
-            //    }
-            //    else if (x.Id == id && x.ExamState == ExamState.一级审批通过)
-            //    {
-            //        _workflowHost.PublishEvent("ExamedLevelTwo", id.ToString(), null);
-            //    }
-            //    else if (x.Id == id && x.ExamState == ExamState.二级审批通过)
-            //    {
-            //        _workflowHost.PublishEvent("ExamedLevelThree", id.ToString(), null);
-            //    }
-            //});
+                _workflowHost.PublishEvent("ExamedLevelOne", id, null);
+            }
+            else if (level == ExamState.二级审批通过)
+            {
+                _workflowHost.PublishEvent("ExamedLevelTwo", id, null);
+            }
+            else if (level == ExamState.三级审批通过)
+            {
+                _workflowHost.PublishEvent("ExamedLevelThree", id, null);
+            }
 
             return Ok();
         }
@@ -72,13 +60,12 @@ namespace LeaveWebsite.Controllers
         [HttpPut("reject/{id}")]
         public IActionResult Reject(Guid id)
         {
-            Leaves.ForEach(x =>
+            LeaveStore.Leaves.ForEach(x =>
             {
-                if (x.Id == id && x.ExamState != ExamState.三级审批通过)
+                if (x.WorkflowId == id.ToString() && x.ExamState != ExamState.三级审批通过)
                 {
                     x.ExamState = ExamState.已驳回;
-                    _workflowHost.StartWorkflow(nameof(LeaveWorkflowIf), x);
-                    //_workflowHost.PublishEvent("Rejected", id.ToString(), null);
+                    _workflowHost.PublishEvent("Rejected", id.ToString(), null);
                 }
             });
 
@@ -88,7 +75,7 @@ namespace LeaveWebsite.Controllers
         [HttpGet]
         public IEnumerable<LeaveViewModel> GetAll()
         {
-            var result = Leaves.Select(x => _mapper.Map<LeaveViewModel>(x));
+            var result = LeaveStore.Leaves.Select(x => _mapper.Map<LeaveViewModel>(x));
             return result;
         }
     }
@@ -109,7 +96,33 @@ namespace LeaveWebsite.Controllers
             CreateMap<Leave, LeaveViewModel>()
                 .ForMember(d => d.Id, s => s.MapFrom(x => x.Id.ToString()))
                 .ForMember(d => d.CreateDate, s => s.MapFrom(x => x.CreateDate.ToString("yyyy-MM-dd HH:mm:ss")))
-                .ForMember(d => d.ExamState, s => s.MapFrom(x => Enum.GetName(typeof(ExamState), x.Completed)));
+                .ForMember(d => d.ExamState, s => s.MapFrom(x => Enum.GetName(typeof(ExamState), x.ExamState)));
+        }
+    }
+
+    public class LeaveStore
+    {
+        public static readonly List<Leave> Leaves = new List<Leave>();
+
+        public static void Add(Leave leave)
+        {
+            Leaves.Add(leave);
+        }
+
+        public static void Edit(Leave leave)
+        {
+            Leaves.ForEach(x =>
+            {
+                if (x.Id == leave.Id)
+                {
+                    x = leave;
+                }
+            });
+        }
+
+        public static Leave Get(Guid id)
+        {
+            return Leaves.SingleOrDefault(x => x.Id == id);
         }
     }
 }

@@ -7,5 +7,6 @@ namespace LeaveWebsite.Models
         public string ApplyContent { get; set; }
         public string CreateDate { get; set; }
         public string ExamState { get; set; }
+        public string WorkflowId { get; set; }
     }
 }

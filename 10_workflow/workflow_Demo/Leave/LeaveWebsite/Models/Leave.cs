@@ -13,5 +13,7 @@ namespace LeaveWebsite.Models
         public ExamState ExamState { get; set; } = ExamState.Î´ÉóÅú;
 
         public ExamState Completed { get; set; } = ExamState.Î´ÉóÅú;
+
+        public string WorkflowId { get; set; }
     }
 }
