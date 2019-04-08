@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrutor.Web", "Scrutor.Web\Scrutor.Web.csproj", "{4D4B7DD3-FBF1-4AB5-B6FA-9B64673F22E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4B7DD3-FBF1-4AB5-B6FA-9B64673F22E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4B7DD3-FBF1-4AB5-B6FA-9B64673F22E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4B7DD3-FBF1-4AB5-B6FA-9B64673F22E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4B7DD3-FBF1-4AB5-B6FA-9B64673F22E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28744BBD-ECFA-4AC4-9684-44580DAE19D9}
+	EndGlobalSection
+EndGlobal

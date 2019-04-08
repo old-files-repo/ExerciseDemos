@@ -12,9 +12,13 @@ namespace Exercises
 
         delegate int Transfermer(int i);
 
-        static void Foo<T>(T x) { }
+        static void Foo<T>(T x)
+        {
+        }
 
-        static void Bar<T>(Action<T> x) { }
+        static void Bar<T>(Action<T> x)
+        {
+        }
 
         static int number = 3;
 
@@ -46,7 +50,7 @@ namespace Exercises
         {
             for (int i = 1; i <= 100; i++)
             {
-                _numArray.Add(i);  //把1到100保存在集合当中方便操作
+                _numArray.Add(i); //把1到100保存在集合当中方便操作
             }
 
             foreach (int num in _numArray)
@@ -94,7 +98,8 @@ namespace Exercises
                 Console.WriteLine("C");
             }
 
-        Here: Console.WriteLine("here");
+        Here:
+            Console.WriteLine("here");
 
             foreach (char c in "hello world!")
             {
@@ -115,6 +120,9 @@ namespace Exercises
             int? a = 5;
             int? b = 1;
             bool cc = a < b;
+
+            dynamic duck=new Duck();
+            duck.Quack();
 
             Console.ReadKey();
         }
@@ -145,8 +153,18 @@ namespace Exercises
 
                     }
                 }
+
                 return _instance;
             }
         }
     }
+
+    public class Duck
+    {
+        public void Quack()
+        {
+            Console.WriteLine("Quack");
+        }
+    }
+
 }

@@ -24,10 +24,10 @@ namespace RedisSubscribe
                         //TODO：
                         Console.WriteLine("EmployeeAddedEvent");
                         return;
-                    case "EmployeeEditedEvent":
+                    case "EmployeeAddedPublishEvent":
                         var employeeEditedEvent = JsonConvert.DeserializeObject(deserializeObject.JsonPayload, typeof(EmployeeEditedEvent));
                         //TODO：
-                        Console.WriteLine("EmployeeEditedEvent");
+                        Console.WriteLine("EmployeeAddedPublishEvent");
                         return;
                     case "SiteEmployeeAddedEvent":
                         var siteEmployeeAddedEvent = JsonConvert.DeserializeObject(deserializeObject.JsonPayload, typeof(SiteEmployeeAddedEvent));
