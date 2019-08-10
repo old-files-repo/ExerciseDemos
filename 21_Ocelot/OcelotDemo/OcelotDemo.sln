@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotDemo", "OcelotDemo\OcelotDemo.csproj", "{31C46C7D-3DDF-4AA6-82B1-79DB5A05EEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotProductService", "OcelotProductService\OcelotProductService.csproj", "{D7219D64-8B39-4355-A13B-B8BF4C2B134E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{1174C5FB-E44B-47A7-8D4D-2202D119CE0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C46C7D-3DDF-4AA6-82B1-79DB5A05EEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C46C7D-3DDF-4AA6-82B1-79DB5A05EEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C46C7D-3DDF-4AA6-82B1-79DB5A05EEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C46C7D-3DDF-4AA6-82B1-79DB5A05EEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7219D64-8B39-4355-A13B-B8BF4C2B134E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7219D64-8B39-4355-A13B-B8BF4C2B134E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7219D64-8B39-4355-A13B-B8BF4C2B134E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7219D64-8B39-4355-A13B-B8BF4C2B134E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1174C5FB-E44B-47A7-8D4D-2202D119CE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1174C5FB-E44B-47A7-8D4D-2202D119CE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1174C5FB-E44B-47A7-8D4D-2202D119CE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1174C5FB-E44B-47A7-8D4D-2202D119CE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
