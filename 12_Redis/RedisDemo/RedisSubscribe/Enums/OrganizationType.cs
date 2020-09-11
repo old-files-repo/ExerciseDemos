@@ -1,4 +1,4 @@
-﻿namespace ZEMIC.Human.Resource.Common.Enums
+﻿namespace xxxxx.Human.Resource.Common.Enums
 {
     /// <summary>
     /// 组织机构类型

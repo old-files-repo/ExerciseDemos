@@ -1,5 +1,5 @@
 ﻿using System;
-using ZEMIC.Human.Resource.Common.Enums;
+using xxxxx.Human.Resource.Common.Enums;
 
 namespace RedisSubscribe.Events
 {

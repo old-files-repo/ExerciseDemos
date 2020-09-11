@@ -11,7 +11,7 @@ namespace RedisSubscribe
     {
         static void Main(string[] args)
         {
-            RedisSub("ZEMICHumanResource", delegate (RedisValue message)
+            RedisSub("xxxxxHumanResource", delegate (RedisValue message)
             {
                 var deserializeObject = JsonConvert.DeserializeObject<Event>(message);
 

@@ -1,5 +1,5 @@
 ﻿using System;
-using ZEMIC.Human.Resource.Common.Enums;
+using xxxxx.Human.Resource.Common.Enums;
 
 namespace RedisSubscribe.Events
 {
@@ -33,10 +33,10 @@ namespace RedisSubscribe.Events
         public string FamilyPhone { get; }
         public string OfficePhone { get; }
         public string Postcode { get; }
-        public DateTime? InZemicDate { get; }
+        public DateTime? InxxxxxDate { get; }
         public DateTime? InAVICDate { get; }
         public DateTime? InWorkDate { get; }
-        public DateTime? LeaveZemicDate { get; }
+        public DateTime? LeavexxxxxDate { get; }
         public Guid? Department { get; }
         public Guid? FileId { get; }
     }

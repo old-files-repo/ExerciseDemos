@@ -1,4 +1,4 @@
-﻿namespace ZEMIC.System.Setting.QueryService.Enums
+﻿namespace xxxxx.System.Setting.QueryService.Enums
 {
     /// <summary>
     /// 角色是否启用

@@ -1,5 +1,5 @@
 ﻿
-namespace ZEMIC.Human.Resource.Common.Enums
+namespace xxxxx.Human.Resource.Common.Enums
 {
     public enum Major
     {
